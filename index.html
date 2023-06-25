@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Grid</title>
+    <style>
+     .Grid > div{
+    display: grid;
+    grid-template-columns: 50% 30% ;
+    background-color: none;
+    color: white;
+    align-items: center;
+}  
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 4fr 6fr;
+}
+.improve{
+    color: chartreuse;
+    text-align: center;
+}
+.paragraph{
+    color: darkgreen;
+    text-align: center;
+}
+
+div:hover{
+    color: deeppink;
+    cursor: pointer;
+}
+.myNav{
+    color: darkgreen;
+    position: absolute;
+    width: 50%;
+    display: block;
+    height: 100px;
+    line-height: 20px;
+    
+}
+.myNav li {
+display: inline;
+padding-right: 100px;
+width: 100%;
+height: 10%;
+color: darkgreen;
+justify-content: right;
+
+
+}
+
+.grid-item {
+    background-color: blue;
+    border: 3px solid gray;
+    padding: 100px;
+    margin: 100px;
+    font-size: 20px;
+    width: 100px;
+    height: 200px;
+
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 110vh;
+    width: 150vh;
+    align-items: flex-start;
+    align-content: space-between;
+    border: 3px solid brown;
+    background-color: aqua;
+    color: white;
+    
+}
+
+
+.Grid> div{
+    background-color: aqua;
+    padding: 1cm;
+}
+.Grid > div:nth-child(odd){
+    background-color: aqua;
+}
+.parent{
+    .square{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150vh;
+    width: 110vh;
+    align-items: flex-start;
+    align-content: space-between;
+    border: 3px solid brown;
+    background-color: aqua;
+    color: white;
+    
+}
+
+.two{
+    background-color: pink;
+    height: 200px;
+    width:30vh;
+}
+
+.three{
+    background-color: green;
+    height: 200px;
+    width:30vh;
+}
+
+.four{
+    background-color: green;
+    height: 200px;
+    width:30vh;
+}
+
+.five{
+    background-color: pink;
+    height: 200px;
+    width:30vh;
+}
+
+
+    </style>
+   
+</head>
+<body>
+    <div class="myNav">
+      <ul>
+        <li>
+   <a href="./Aboutus.html">About</a>
+        </li>
+        <li>
+ <a href="Career.html">Career</a>
+</li>
+<li>
+ <a href="Departments.html">Departments</a>
+</li>
+ </li>
+</li> 
+</ul> 
+</div>
+   <div>
+    <img src="./docplanner logo.png" alt="logo"/>
+   </div>
+   
+   <div>
+    <img id="myimage" src="./logo.png" alt="logo"/>
+   </div>
+   <div>
+    <h1>Making the healthcare experience more human</h1>
+   </div>
+    </div>
+    </div> 
+   <div class="Grid">
+   <div>
+        We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.
+     <div>
+    <div> 
+            We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.
+    </div>
+       
+    </div>
+     </div>
+   </div>
+   <div>
+    
+   </div>
+   <div class="grid-container">
+     <div class="grid-item">For patients Find a doctor, book a visit and solve any health-related doubt
+        <select>
+            <option value="choose country">Choose country</option>
+            <option value="choose country">Argentina</option>
+            <option value="choose country">czech</option>
+            <option value="choose country">Nigeria</option>
+            <option value="choose country">Brazil</option>
+           </select>  
+    </div>
+    <div class="grid-item">For doctors Save time managing visits and cut no-shows by half
+        <select>
+            <option value="choose country">Choose country</option>
+            <option value="choose country">Argentina</option>
+            <option value="choose country">czech</option>
+            <option value="choose country">Nigeria</option>
+            <option value="choose country">Brazil</option>
+           </select>  
+    </div> 
+        <div class="grid-item">For clinics Deliver an exceptional patient experience in your clinics
+            <select>
+                <option value="choose country">2 to 20 specialist</option>
+                <option value="choose country">Argentina</option>
+                <option value="choose country">czech</option>
+                <option value="choose country">Nigeria</option>
+                <option value="choose country">Brazil</option>
+               </select> 
+               <br> 
+               <select>
+                <option value="choose country">more than 20 specialist</option>
+                <option value="choose country">Argentina</option>
+                <option value="choose country">czech</option>
+                <option value="choose country">Nigeria</option>
+                <option value="choose country">Brazil</option>
+               </select>  
+        </div>
+     
+    </div> 
+     </div>
+         <div class="parent">
+            <img src="./logocropped.png" alt="logo"/>
+                        <p>We work from 9 offices all over the world, bringing Docplanner
+                            Group to life in 13 countries.</p>
+                            <div>
+     <div class="square two">
+        <h3>Leader in 13 countries</h3>
+        <br>
+        <p>Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile</p>
+        </div>
+      <br>
+
+     <div class="square three">
+        <p>15,000,000 appointments
+            booked last month</p>
+     </div>
+     <br>
+
+     <div class="square four">
+        <p>90,000,000 patients
+            visit our websites each month</p>
+    </div>
+     </div>  
+    </div>
+     </div>  
+    </div>
+    </h2>
+        <h2 class="improve">Improve the lives of millions.
+     Change yours forever.</h2>
+    <p class="paragraph">More than 2800 team mates share our same vision, goals and passion.
+                    With offices in Warsaw, Barcelona, Munich, Istanbul, Rome, Rio, Bologna,
+                    Mexico City and Curitiba, our search for great talent never stops.</p>
+                    
+    <div>
+    <img id="myimage" src="./warsaw.png" alt="logo"/>
+    <form>
+    <label>warsaw</label>
+     <input type="text" type="text" placeholder="see opening"
+    </form>
+     <br>
+    </div>  
+     <div>
+    <img id="myimage" src="./barcelona.png" alt="logo"/>
+    <form>
+     <br>
+    <label>barcelona</label>
+     <input type="text" type="text" placeholder="see opening"
+    </form>
+    <div>
+    <img id="myimage" src="./istanbul.png" alt="logo"/>
+      <form>
+        <br>
+    <label>istanbul</label>
+      <input type="text" type="text" placeholder="see opening"
+        <form>
+        <div>
+         <img id="myimage" src="./rome.png" alt="logo"/>
+         <br>
+     <label>Rome</label>
+       <input type="text" type="text" placeholder="see opening"
+        </form>
+         <form>
+        <div>
+  <img id="myimage" src="./bologna.png" alt="logo"/>
+      <br>
+       <label>bologna</label>
+        <input type="text" type="text" placeholder="see opening"
+           </form>
+      <form>
+      <div>
+        <img id="myimage" src="./curitiba.png" alt="logo"/>
+    <br>
+       <label>curitiba</label>
+       <input type="text" type="text" placeholder="see opening"
+      </form>
+        <form>
+         <div>
+           <img id="myimage" src="./rio-janeiro.png" alt="logo"/>
+           <br>
+        <label>rio-janeiro</label>
+           <input type="text" type="text" placeholder="see opening"
+            <div class="see opening">see opening
+         </div>
+        </form>
+        <form>
+      <div>
+        <img id="myimage" src="./mexico-city.png" alt="logo"/>
+         <br>
+        <label>mexico-city</label>
+        <input type="text" type="text" placeholder="see opening"
+         </form>
+        <h1>Sounds interesting? Join us now!</h1>
+         <form>
+        <label></label>
+        <input type="text" type="text" placeholder="see all current opening"
+        </form>
+        </form>
+                           
+         <br>
+         <P>We are leaders in 13 countries: <a href="./poland.html">Poland,</a>
+         <a href="argentina..html">Argentina,</a>
+         <a href="germany.html">Germany,</a>
+         <a href="germany.html">Czech republic,</a>
+         <a href="germany.html">Brazil,</a>
+         <a href="germany.html">Portugal,</a>
+         <a href="germany.html">Peru,</a>
+         <a href="germany.html">Chile,</a>
+         </P>
+        <div class="footer-bottom">
+         <p>www.docplanner.com © 2023</p>
+        </div>
+        </div>
+    </div> 
+</body>
+</html>
