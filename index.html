@@ -76,14 +76,11 @@ justify-content: right;
     
 }
 
-
 .Grid> div{
     background-color: aqua;
     padding: 1cm;
 }
-.Grid > div:nth-child(odd){
-    background-color: aqua;
-}
+
 .parent{
     .square{
     display: flex;
@@ -112,7 +109,7 @@ justify-content: right;
 }
 
 .four{
-    background-color: green;
+    background-color: blue;
     height: 200px;
     width:30vh;
 }
@@ -122,8 +119,10 @@ justify-content: right;
     height: 200px;
     width:30vh;
 }
-
-
+#myimage{
+    background-color: black;
+    color: chocolate;
+}
     </style>
    
 </head>
@@ -205,30 +204,54 @@ justify-content: right;
                 <option value="choose country">Brazil</option>
                </select>  
         </div>
-     
-    </div> 
+     </div> 
      </div>
+    <Div class="global">
+    <p style="text-align: center;">We are a global
+        company
+        with local culture</p>
+        <img src="./doktortakvimi.png"  alt="logo"/>
+        <br>
+        <img id="myimage" src="./znanylekarz.png" alt="logo"/>
+        <br>
+        <img src="./instagram download (1).jpeg" alt="logo"/>
+        <br>
+        <img src="./twitter download.png" alt="logo"/>
+        <br>
+        <img src="./facebook download.png" alt="logo"/>
+        <br>
+        <img src="./MioDottore.png" alt="logo"/>
+        <br>
+        <img src="./logo-jameda.svg" alt="logo"/>
+        <br>
+        <img src="./Znamylekar.jpg" alt="logo"/>
+    </Div>
          <div class="parent">
             <img src="./logocropped.png" alt="logo"/>
                         <p>We work from 9 offices all over the world, bringing Docplanner
                             Group to life in 13 countries.</p>
                             <div>
      <div class="square two">
-        <h3>Leader in 13 countries</h3>
-        <br>
-        <p>Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile</p>
+        <h2 style=bold>Leader in 13 countries</h2>
+        <img src="./flag.png" alt="logo"/>
+        <p style="font-size: small;">Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile</p>
         </div>
       <br>
 
      <div class="square three">
-        <p>15,000,000 appointments
-            booked last month</p>
+        <img src="./visits.png" alt="logo"/>
+        <br>
+        <p font-size:times new roman>15,000,000 appointments</p>
+     </h5>booked last month</h5>
+           
      </div>
      <br>
 
      <div class="square four">
+        <img src="./patients.png" alt="logo"/>
         <p>90,000,000 patients
             visit our websites each month</p>
+            
     </div>
      </div>  
     </div>
